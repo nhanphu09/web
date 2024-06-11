@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <title>Shoppers &mdash; Mẫu Website Thương Mại Điện Tử</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta:300,400,700">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="site-wrap">
+    <div id="header-placeholder"></div>
+    <div class="bg-light py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mb-0"><a href="index.html">Trang Chủ</a> <span class="mx-2 mb-0">/</span> <a href="cart.html">Giỏ Hàng</a> <span class="mx-2 mb-0">/</span> <strong class="text-black">Thanh Toán</strong></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="site-section">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-12">
+                    <div class="border p-4 rounded" role="alert">
+                        Bạn là khách hàng quay trở lại? <a href="#">Nhấn vào đây</a> để đăng nhập
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-5 mb-md-0">
+                    <h2 class="h3 mb-3 text-black">Chi Tiết Thanh Toán</h2>
+                    <div class="p-3 p-lg-5 border">
+                        <div class="form-group">
+                            <label for="c_country" class="text-black">Quốc gia <span class="text-danger">*</span></label>
+                            <select id="c_country" class="form-control">
+                                <option value="1">Chọn quốc gia</option>
+                                <option value="2">Bangladesh</option>
+                                <option value="3">Algeria</option>
+                                <option value="4">Afghanistan</option>
+                                <option value="5">Ghana</option>
+                                <option value="6">Albania</option>
+                                <option value="7">Bahrain</option>
+                                <option value="8">Colombia</option>
+                                <option value="9">Cộng hòa Dominica</option>
+                            </select>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-6">
+                                <label for="c_fname" class="text-black">Tên <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="c_fname" name="c_fname">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="c_lname" class="text-black">Họ <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="c_lname" name="c_lname">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-12">
+                                <label for="c_companyname" class="text-black">Tên Công Ty</label>
+                                <input type="text" class="form-control" id="c_companyname" name="c_companyname">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-12">
+                                <label for="c_address" class="text-black">Địa chỉ <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="c_address" name="c_address" placeholder="Địa chỉ đường phố">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Căn hộ, suite, đơn vị, v.v. (tùy chọn)">
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-md-6">
+                                <label for="c_state_country" class="text-black">Tỉnh / Thành phố <span class="text-danger">*</span></label>
+                                <input type of text" class="form-control" id="c_state_country" name="c_state_country">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="c_postal_zip" class="text-black">Mã Bưu Chính / Zip <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="c_postal_zip" name="c_postal_zip">
+                            </div>
+                        </div>
+                        <div class="form-group row mb-5">
+                            <div class="col-md-6">
+                                <label for="c_email_address" class="text-black">Địa chỉ Email <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="c_email_address" name="c_email_address">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="c_phone" class="text-black">Điện Thoại <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="c_phone" name="c_phone" placeholder="Số điện thoại">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="c_order_notes" class="text-black">Ghi chú đơn hàng</label>
+                            <textarea name="c_order_notes" id="c_order_notes" cols="30" rows="5" class="form-control" placeholder="Viết ghi chú của bạn ở đây..."></textarea>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="row mb-5">
+                    <div class="col-md-12">
+                      <h2 class="h3 mb-3 text-black">Mã Giảm Giá</h2>
+                      <div class="p-3 p-lg-5 border">
+                        <label for="c_code" class="text-black mb-3">Nhập mã giảm giá nếu bạn có</label>
+                        <div class="input-group w-75">
+                          <input type="text" class="form-control" id="c_code" placeholder="Mã Giảm Giá" aria-label="Coupon Code" aria-describedby="button-addon2">
+                          <div class="input-group-append">
+                            <button class="btn btn-primary btn-sm" type="button" id="button-addon2">Áp dụng</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="row mb-5">
+                    <div class="col-md-12">
+                      <h2 class="h3 mb-3 text-black">Đơn Hàng Của Bạn</h2>
+                      <div class="p-3 p-lg-5 border">
+                        <table class="table site-block-order-table mb-5">
+                          <thead>
+                            <th>Sản phẩm</th>
+                            <th>Tổng</th>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Giày T-Shirt Top Up <strong class="mx-2">x</strong> 1</td>
+                              <td>$250.00</td>
+                            </tr>
+                            <tr>
+                              <td>Giày Polo <strong class="mx-2">x</strong> 1</td>
+                              <td>$100.00</td>
+                            </tr>
+                            <tr>
+                              <td class="text-black font-weight-bold"><strong>Tổng Phụ Giỏ Hàng</strong></td>
+                              <td class="text-black">$350.00</td>
+                            </tr>
+                            <tr>
+                              <td class="text-black font-weight-bold"><strong>Tổng Đơn Hàng</strong></td>
+                              <td class="text-black font-weight-bold"><strong>$350.00</strong></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                
+                        <div class="border p-3 mb-3">
+                          <h3 class="h6 mb-0"><a class="d-block" data-toggle="collapse" href="#collapsebank" role="button" aria-expanded="false" aria-controls="collapsebank">Chuyển Khoản Ngân Hàng</a></h3>
+                          <div class="collapse" id="collapsebank">
+                            <div class="py-2">
+                              <p class="mb-0">Vui lòng chuyển tiền trực tiếp vào tài khoản ngân hàng của chúng tôi. Sử dụng Mã Đơn Hàng của bạn làm tham chiếu thanh toán. Đơn hàng của bạn sẽ không được giao cho đến khi tiền đã được xác nhận trong tài khoản của chúng tôi.</p>
+                            </div>
+                          </div>
+                        </div>
+                
+                        <div class="border p-3 mb-3">
+                          <h3 class="h6 mb-0"><a class="d-block" data-toggle="collapse" href="#collapsecheque" role="button" aria-expanded="false" aria-controls="collapsecheque">Thanh Toán Bằng Séc</a></h3>
+                          <div class="collapse" id="collapsecheque">
+                            <div class="py-2">
+                              <p class="mb-0">Vui lòng chuyển tiền trực tiếp vào tài khoản ngân hàng của chúng tôi. Sử dụng Mã Đơn Hàng của bạn làm tham chiếu thanh toán. Đơn hàng của bạn sẽ không được giao cho đến khi tiền đã được xác nhận trong tài khoản của chúng tôi.</p>
+                            </div>
+                          </div>
+                        </div>
+                
+                        <div class="border p-3 mb-5">
+                          <h3 class="h6 mb-0"><a class="d-block" data-toggle="collapse" href="#collapsepaypal" role="button" aria-expanded="false" aria-controls="collapsepaypal">Paypal</a></h3>
+                          <div class="collapse" id="collapsepaypal">
+                            <div class="py-2">
+                              <p class="mb-0">Vui lòng chuyển tiền trực tiếp vào tài khoản ngân hàng của chúng tôi. Sử dụng Mã Đơn Hàng của bạn làm tham chiếu thanh toán. Đơn hàng của bạn sẽ không được giao cho đến khi tiền đã được xác nhận trong tài khoản của chúng tôi.</p>
+                            </div>
+                          </div>
+                        </div>
+                
+                        <div class="form-group">
+                          <button class="btn btn-primary btn-lg py-3 btn-block" onclick="window.location='thankyou.html'">Đặt Hàng</button>
+                        </div>
+                
+                      </div>
+                    </div>
+                  </div>              
+                </div>                
+            </div>
+        </div>
+    </div>
+    <div id="footer-placeholder"></div>
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
